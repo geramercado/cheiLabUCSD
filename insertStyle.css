@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Open Sans';
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #eeeeee;
+}
+
+header{
+    
+    background-color: #e2e2e2;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.header-image{
+    background-image: linear-gradient( rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(sd.jpg);
+    background-position: 0% 70%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: xx-large;
+} 
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: rgb(144, 105, 253);
+    color: #fff;
+}
+
+/*    ---------------      WRAPPER      --------------*/
+
+.wrapper{
+    width: 700px;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 930px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: .5rem .5rem 1rem #ccc;
+}
+
+
+/*    ---------------      ONE      --------------*/
+
+.wrapper .input-data {
+
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.wrapper .input-data input{
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+
+}
+
+.input-data input:focus ~ label, 
+.input-data input:focus ~ label{
+    transform: translateY(-35px);
+    font-size: 15px;
+}
+
+.wrapper .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/*    ---------------      TWO      --------------*/
+
+.wrapper .input-two {
+
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-two input{
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+
+}
+
+.input-two input:focus ~ label, 
+.input-two input:focus ~ label{
+    transform: translateY(-35px);
+    font-size: 15px;
+}
+
+.wrapper .input-two label{
+    position: absolute;
+    bottom: 10px;
+    left: 280px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/*    ---------------      THREE      --------------*/
+
+.wrapper .input-three {
+
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-three input{
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+
+}
+
+.input-three input:focus ~ label, 
+.input-three input:focus ~ label{
+    transform: translateY(-35px);
+    font-size: 15px;
+}
+
+.wrapper .input-three label{
+    position: absolute;
+    bottom: 10px;
+    left: 260px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/*    ---------------      FOUR      --------------*/
+
+.wrapper .input-four {
+
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-four input{
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+
+}
+
+.input-four input:focus ~ label, 
+.input-four input:focus ~ label{
+    transform: translateY(-35px);
+    font-size: 15px;
+}
+
+.wrapper .input-four label{
+    position: absolute;
+    bottom: 10px;
+    left: 290px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/*    ---------------      FIVE      --------------*/
+
+.wrapper .input-five {
+
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-five input{
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+
+}
+
+.input-five input:focus ~ label, 
+.input-five input:focus ~ label{
+    transform: translateY(-35px);
+    font-size: 15px;
+}
+
+.wrapper .input-five label{
+    position: absolute;
+    bottom: 10px;
+    left: 280px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/*    ---------------      BOTOM      --------------*/
+
+
+.button {
+    background-color: #fffefe;
+    margin-left: 43%;
+    margin-right: 50%;
+    margin-top: 20px;
+    padding-top: 2%;
+
+}
+
+
+.button button {
+    font-weight: 'Open Sans';
+    color: #707070;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #ffffff;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: .5rem .5rem 1rem #ccc, -.5rem -.5rem 1rem #fff;
+    background-color: #fff;
+}
+
+
+.button button:hover{
+    box-shadow: .2rem .2rem 1rem #ffffff;
+}
+
+.button button:active{
+    box-shadow: .2rem .2rem 1rem #cecece;
+}
+

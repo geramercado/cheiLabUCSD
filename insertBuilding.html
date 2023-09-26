@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Insert buildings data</title>
+        <link rel="stylesheet" href="insertStyle.css">
+    </head>
+
+        <body>
+
+            <header>
+                <nav>
+                    <a href="index.html">Buildings</a>
+                    <a href="#">InsertBuildings</a>
+                    <a href="autors.html">Autors</a>
+                </nav>
+            </header>
+
+            <div class="header-image">
+                <h1>INSERT BUILDINGS</h1>
+            </div>
+
+            <div class="wrapper">
+
+                <form action="insert.php" method="post" id="form">
+
+                    <div class="input-data">
+                        <input type="text" name="name" id="name">
+                        <label for="name">Name</label>
+                    </div>
+
+                    <div class="input-two">
+                        <input type="text" name="description" id="description">
+                        <label for="description">Description</label>
+                    </div> 
+
+                    <div class="input-three">
+                        <input type="text" name="geo_coordinates" id="geo_coordinates">
+                        <label for="geo_coordinates">GeoCoordinates</label>
+                    </div> 
+
+                    <div class="input-four">
+                        <input type="text" name="transit" id="transit">
+                        <label for="transit">Transit</label>
+                    </div> 
+
+                    <div class="input-five">
+                        <input type="text" name="location" id="location">
+                        <label for="geo_coordinates">Location</label>
+                    </div> 
+
+                    <div class="button">
+                        <button type="submit">Save</button>
+                        <p class="warnings" id="warnings"></p>
+                    </div>
+
+                </form>
+
+            </div>
+
+           <script src="emptyBox.js"></script>
+
+        </body>
+
+</html>
